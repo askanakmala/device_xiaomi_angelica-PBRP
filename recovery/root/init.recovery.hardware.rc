@@ -1,0 +1,6 @@
+on property:vendor.kpdpwr.reset.enabled=0
+	write /sys/bus/platform/drivers/mtk-kpd/kpdpwr_reset 0
+
+on property:vendor.kpdpwr.reset.enabled=1
+	write /sys/bus/platform/drivers/mtk-kpd/kpdpwr_reset 1
+
